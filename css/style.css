@@ -13,7 +13,7 @@ background-color: #FFF;
 /* =====HEADER===== */
 
 .header-logo {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #2E2F42;
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
@@ -22,7 +22,7 @@ background-color: #FFF;
     text-transform: uppercase;
 }
 .header-logo-color {
-color: var(--IRIS, #4D5AE5);
+color: #4D5AE5;
 font-family: Raleway;
 font-size: 18px;
 font-weight: 700;
@@ -31,16 +31,54 @@ letter-spacing: 0.3em;
 text-transform: uppercase;
 }
 .header-menu-link {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #2E2F42;
 font-size: 16px;
 font-weight: 500;
-line-height: 1,50;
+line-height: 1,5;
 letter-spacing: 0.2em;
 }
+
+.header-menu-link:hover,
+.header-menu-link:focus{
+    color: #404BBF;
+}
 .contacts-link {
-    color: var(--SLATE, #434455);
+    color: #434455;
 font-size: 16px;
 font-weight: 400;
-line-height: 1.50;
+line-height: 1,5;
 letter-spacing: 0.2em;
+}
+.contacts-link:hover,
+.contacts-link:focus{
+    color: #404BBF;
+}
+
+/* ================ */
+
+.solutions {
+    background-color: #2E2F42;;
+}
+.solutions-title{
+color: #FFF;
+text-align: center;
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07;
+letter-spacing: 0.02em;
+}
+    
+.solutions-btn {
+    font-family: inherit;
+ color:#FFF;
+ background-color: #4D5AE5;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.4px;
+cursor: pointer;
+}
+.solutions-btn:hover,
+.solutions-btn:focus{
+    background-color:#404BBF
 }
